@@ -1,0 +1,424 @@
+body{
+    background: url(Rectangle-1441.png);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 70%;
+    height: 1084px;
+    margin: 0;
+    padding-bottom: 6000px;
+
+}
+.simple-navbar {
+    padding: 10px;
+    position:static; /* Fixer la navbar en haut de la page */
+    top: 0; /* Positionner en haut de la page */
+    left: 0;
+    width: 100%; /* Prendre toute la largeur de l'écran */
+    display: flex; /* Utiliser Flexbox pour centrer les éléments */
+    justify-content: center; /* Centrer la navbar horizontalement */
+    z-index: 1000; /* Assure que la navbar est au-dessus du contenu */
+}
+
+/* Style des liens de la navbar */
+.simple-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.simple-navbar ul li {
+    margin-left: 20px;
+}
+
+.simple-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+/* Effet au survol */
+.simple-navbar ul li a:hover {
+    color: #ff6347; /* Changement de couleur au survol */
+}
+
+/*pour s'assurer que le contenu n'est pas caché sous la navbar */
+.logo {
+    margin-left: 185px;
+    padding-right: 20px; /* Assure que le logo reste à droite */
+}
+
+.logo img {
+    height: 15px; /* Taille du logo ajustée */
+    width: auto;
+    display: block;
+}
+/* Style de la barre de recherche */
+.search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 3%; /* Centrer complètement */
+}
+
+.search-bar input {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure semi-transparente */
+    background-color: rgba(255, 255, 255, 0.5); /* Fond semi-transparent */
+    color: #333; /* Texte en noir */
+    border-radius: 25px; /* Bordure arrondie */
+    outline: none; /* Enlève le contour par défaut */
+    font-size: 1em;
+    width: 300px; /* Largeur de la barre de recherche */
+    transition: background-color 0.3s, border 0.3s;
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Effet au focus (quand on clique dedans) */
+.search-bar input:focus {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond légèrement moins transparent */
+    border: 1px solid rgba(0, 0, 0, 0.5); /* Bordure plus visible */
+    color: black; /* Texte noir au focus */
+}
+
+/* Style du placeholder (texte d'indication) */
+.search-bar input::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder semi-transparent */
+}
+.no-border {
+    border-collapse: collapse; /* Supprime l'espacement entre les cellules */
+    width: 40%;
+    max-width: 600px;
+    margin-left: 45%;
+    top: 450px;
+    position: relative;
+    top: 700px;
+    display: flex;
+    float: left;    
+}
+
+.no-border th, .no-border td {
+    border: none; /* Supprime les bordures autour des cellules */
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur des cellules */
+    text-align: left;
+    font-size: 12px;
+}
+.Table{
+    position: relative;
+    margin-top: 300px;
+    margin-left: -150px;
+}
+.Titre{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 350px;
+    top: 700px;
+}
+h2
+{
+    position: absolute;
+    top: 742px;
+    left: 180px;
+    display: flex ;
+    flex-wrap: wrap;
+}
+h3 {
+    position: relative;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    top: 1000px;
+    right: 700px;
+}
+.bouton-groupe{
+    display: flex;
+    background-color: rgb(197, 194, 194);
+    border-radius: 20px;
+    padding: 5px;
+    gap: 10px;
+    margin-top: 1000px;
+    margin-left: 795px;
+    position:absolute
+
+    
+    
+}
+.bouton{
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 400;
+    color: black;
+    cursor:pointer
+}
+.bouton.actif{
+    background-color: white;
+    color: black;
+    box-shadow:0 0 10px rgba(0,0,0,0.1)
+}
+.img1{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 560px;
+    
+}
+.img2{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    position:absolute;
+    margin-top: 1100px;
+    margin-left: 750px;
+}
+.img3{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 950px;
+}
+.img4{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 1110px;
+    margin-left: 1170px;
+}
+/* Container pour les cartes */
+.product-container {
+    display: flex;
+    flex-wrap: nowrap; /* Empêche les cartes de passer à la ligne suivante */
+    gap: 15px; /* Réduit l'espace entre les cartes */
+    overflow-x: auto; /* Permet un défilement horizontal si l'espace est insuffisant */
+    overflow-y: hidden; /* Supprime la barre de défilement verticale */
+    scrollbar-width: none; /* Masque la barre de défilement sur Firefox */
+    margin-top: 850px;
+    margin-left: 110px;
+    background-color: #f2f2f2; /* Couleur de fond gris clair */
+    padding: 200px;
+    height: 300px;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none; /* Masque la barre de défilement sur Chrome, Safari, et Edge */
+  }
+  
+  /* Style général de la carte réduite */
+  .product-card {
+    background-color: white;
+    border-radius: 12px; /* Réduit les coins arrondis */
+    padding: 70px; /* Réduit l'espace interne */
+    width: 50px; /* Réduit la largeur de chaque carte */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Ombre plus subtile */
+    font-family: Arial, sans-serif;
+    position: relative;
+    text-align: left;
+    height: 40px;
+    margin-top: 200px;
+    left: 200px;
+  }
+  /* Style du bouton de retour (flèche) */
+.back-arrow {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    left: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 0 20px;
+
+}
+  
+  /* Style pour les éléments internes avec une taille réduite */
+  .category {
+    font-size: 12px; /* Réduit la taille de la catégorie */
+    color: #888;
+    margin: 0;
+    margin-top: -45px;
+    margin-left: -45px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0 4px 0;
+    color: #333333; /* Couleur noire */
+    margin-top: -1000px;
+    margin-left: 654px;
+  }
+  
+  .rating {
+    font-size: 14px; /* Réduit la taille des étoiles */
+    color: #ffaa22;
+    margin-top: 1000px;
+    margin-left: -45px;
+  }
+  
+  .price {
+    font-size: 18px; /* Réduit la taille du prix */
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+    margin-left: -50px;
+  }
+  
+  .add-to-cart {
+    background-color: #002244;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px; /* Réduit la taille du bouton */
+    height: 30px;
+    font-size: 16px; /* Réduit la taille du "+" */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  .view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le texte et la flèche dans le conteneur parent */
+    color: #FFA500; /* Couleur orange */
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 300px;
+    width: 100px;
+    }
+
+    .view-all:hover .arrow {
+        transform: translateX(5px); /* Déplacement de la flèche au survol */
+    }
+.image-container {
+    position: relative;
+    width: 600px; /* Ajustez la taille pour qu’elle soit similaire à votre exemple */
+    height: 450px;
+}
+
+.background-gray {
+    position: absolute;
+    top: -900px;
+    left: 300px;
+    width: 95%;
+    height: 60%;
+    background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
+    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
+    z-index: 1;
+    margin-top: 1000px;
+}
+.background-gray2 {
+    position: absolute;
+    top: -900px;
+    left: 300px;
+    width: 75%;
+    height: 50%;
+    background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
+    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
+    z-index: 1;
+    margin-top: 850px;
+    margin-left: -50px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Pour un effet d'ombre doux */
+    margin-top: -100px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.subtitle {
+    color: orange ;/* Couleur dorée/orangée pour le sous-titre */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 300px;
+    margin-left: 1000px;
+    width: 500px;
+    height: 500px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 1000px;
+    width: 450px;
+    height: 100px;
+    margin-top: -450px;
+}
+
+
+.description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 1000px;
+    width: 450px;
+    height: 100px;
+    
+}
+
+.more-info {
+    color: #f6a919; /* Couleur dorée pour le lien */
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1000px;
+   width: 500px;
+   height: 500px;
+   margin-top: -200px;
+}
+
+.arrow {
+    margin-left: 8px;
+    transition: transform 0.2s ease;
+}
+
+.more-info:hover .arrow {
+    transform: translateX(5px); /* Déplacement de la flèche au survol */
+}
+
