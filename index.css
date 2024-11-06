@@ -3,24 +3,38 @@ body{
     background-image: center;
     background-repeat: no-repeat;
     background-position:top center;
-    background-size: 70%;
+    background-size: 100%;
     height: 1084px;
     margin: 0;
     padding-bottom: 6000px;
+    width: 100%;
 
-}
-.simple-navbar {
+    }
+    .Firstpage{
+        font-size: 50px;
+        margin-top: 200px;
+        margin-left: -1300px;
+        color: white;
+    }
+    .p{
+        font-size: 30px;
+        color: white;
+        margin-left: -1240px;
+        margin-top: -50px;
+    }
+    .simple-navbar {
     padding: 10px;
-    position:static; /* Fixer la navbar en haut de la page */
-    top: 0; /* Positionner en haut de la page */
+    position:static; 
+    top: 0;
     left: 0;
-    width: 100%; /* Prendre toute la largeur de l'écran */
-    display: flex; /* Utiliser Flexbox pour centrer les éléments */
-    justify-content: center; /* Centrer la navbar horizontalement */
-    z-index: 1000; /* Assure que la navbar est au-dessus du contenu */
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    z-index: 1000;
+    font-size: 25px;
 }
 
-/* Style des liens de la navbar */
+
 .simple-navbar ul {
     list-style-type: none;
     margin: 0;
@@ -29,7 +43,7 @@ body{
 }
 
 .simple-navbar ul li {
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .simple-navbar ul li a {
@@ -40,23 +54,23 @@ body{
     transition: color 0.3s;
 }
 
-/* Effet au survol */
+/* Effet lors du survol */
 .simple-navbar ul li a:hover {
     color: #ff6347; /* Changement de couleur au survol */
 }
 
-/*pour s'assurer que le contenu n'est pas caché sous la navbar */
+/*le contenu n'est pas caché sous la navbar */
 .logo {
-    margin-left: 185px;
-    padding-right: 20px; /* Assure que le logo reste à droite */
+    margin-left: 505px;
+    padding-right: 20px; /* le logo reste à droite */
 }
 
 .logo img {
-    height: 15px; /* Taille du logo ajustée */
+    height: 30px; /* Taille du logo  */
     width: auto;
     display: block;
 }
-/* Style de la barre de recherche */
+/*  la barre de recherche stylisée */
 .search-bar {
     position: absolute;
     top: 50%;
@@ -67,30 +81,36 @@ body{
 
 .search-bar input {
     padding: 10px 20px;
-    border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure semi-transparente */
-    background-color: rgba(255, 255, 255, 0.5); /* Fond semi-transparent */
-    color: #333; /* Texte en noir */
-    border-radius: 25px; /* Bordure arrondie */
-    outline: none; /* Enlève le contour par défaut */
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333; 
+    border-radius: 25px; 
+    outline: none; 
     font-size: 1em;
-    width: 300px; /* Largeur de la barre de recherche */
+    width: 300px; 
     transition: background-color 0.3s, border 0.3s;
-    text-align: center; /* Centre le texte à l'intérieur */
+    text-align: center; 
 }
 
-/* Effet au focus (quand on clique dedans) */
+
 .search-bar input:focus {
-    background-color: rgba(255, 255, 255, 0.8); /* Fond légèrement moins transparent */
-    border: 1px solid rgba(0, 0, 0, 0.5); /* Bordure plus visible */
-    color: black; /* Texte noir au focus */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    color: black; 
 }
 
-/* Style du placeholder (texte d'indication) */
+
 .search-bar input::placeholder {
-    color: rgba(0, 0, 0, 0.5); /* Placeholder semi-transparent */
+    color: rgba(0, 0, 0, 0.5);
+}
+.img-search{
+    width: 30px;
+    height: 30px;
+    margin-top: 480px;
+    margin-left: -848px;
 }
 .no-border {
-    border-collapse: collapse; /* Supprime l'espacement entre les cellules */
+    border-collapse: collapse; 
     width: 40%;
     max-width: 600px;
     margin-left: 45%;
@@ -98,25 +118,32 @@ body{
     position: relative;
     top: 700px;
     display: flex;
-    float: left;    
+    float: left; 
 }
 
 .no-border th, .no-border td {
-    border: none; /* Supprime les bordures autour des cellules */
-    padding: 5px; /* Ajoute un peu d'espace à l'intérieur des cellules */
+    border: none; 
+    padding: 5px; 
     text-align: left;
-    font-size: 12px;
+    font-size: 19px;
+    
 }
 .Table{
     position: relative;
     margin-top: 300px;
     margin-left: -150px;
+
+}
+tr:nth-child(3){
+    color: orange;
 }
 .Titre{
     display: inline-block;
     vertical-align: top;
     margin-left: 350px;
     top: 700px;
+    font-size: 40px;
+    left: -150px;
 }
 h2
 {
@@ -125,6 +152,7 @@ h2
     left: 180px;
     display: flex ;
     flex-wrap: wrap;
+    font-size: 40px;
 }
 h3 {
     position: relative;
@@ -134,6 +162,7 @@ h3 {
     font-weight: bold;
     top: 1000px;
     right: 700px;
+    font-size: 40px;
 }
 .bouton-groupe{
     display: flex;
@@ -168,7 +197,7 @@ h3 {
     display: block;
     position: absolute;
     margin-top: 1100px;
-    margin-left: 560px;
+    margin-left: 600px;
     
 }
 .img2{
@@ -178,7 +207,7 @@ h3 {
     display: block;
     position:absolute;
     margin-top: 1100px;
-    margin-left: 750px;
+    margin-left: 800px;
 }
 .img3{
     width: 100px;
@@ -187,7 +216,7 @@ h3 {
     display: block;
     position: absolute;
     margin-top: 1100px;
-    margin-left: 950px;
+    margin-left: 1000px;
 }
 .img4{
     width: 100px;
@@ -196,42 +225,42 @@ h3 {
     display: block;
     position: absolute;
     margin-top: 1110px;
-    margin-left: 1170px;
+    margin-left: 1200px;
 }
-/* Container pour les cartes */
+
 .product-container {
     display: flex;
-    flex-wrap: nowrap; /* Empêche les cartes de passer à la ligne suivante */
-    gap: 15px; /* Réduit l'espace entre les cartes */
-    overflow-x: auto; /* Permet un défilement horizontal si l'espace est insuffisant */
-    overflow-y: hidden; /* Supprime la barre de défilement verticale */
-    scrollbar-width: none; /* Masque la barre de défilement sur Firefox */
+    flex-wrap: nowrap; 
+    gap: 15px; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    scrollbar-width: none; 
     margin-top: 850px;
-    margin-left: 110px;
-    background-color: #f2f2f2; /* Couleur de fond gris clair */
+    margin-left: 0px;
+    background-color: #f2f2f2; 
     padding: 200px;
     height: 300px;
   }
   
   .product-container::-webkit-scrollbar {
-    display: none; /* Masque la barre de défilement sur Chrome, Safari, et Edge */
+    display: none; 
   }
   
-  /* Style général de la carte réduite */
+  
   .product-card {
     background-color: white;
-    border-radius: 12px; /* Réduit les coins arrondis */
-    padding: 70px; /* Réduit l'espace interne */
-    width: 50px; /* Réduit la largeur de chaque carte */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Ombre plus subtile */
+    border-radius: 12px; 
+    padding: 70px; 
+    width: 50px; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
     font-family: Arial, sans-serif;
     position: relative;
     text-align: left;
     height: 40px;
     margin-top: 200px;
-    left: 200px;
+    left: 350px;
   }
-  /* Style du bouton de retour (flèche) */
+  
 .back-arrow {
     background-color: #FFFFFF;
     color: #333333;
@@ -248,13 +277,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-items: center;
     gap: 50px;
     margin: 0 20px;
 
 }
   
-  /* Style pour les éléments internes avec une taille réduite */
+  
   .category {
     font-size: 12px; /* Réduit la taille de la catégorie */
     color: #888;
@@ -319,7 +347,7 @@ h3 {
     }
 .image-container {
     position: relative;
-    width: 600px; /* Ajustez la taille pour qu’elle soit similaire à votre exemple */
+    width: 600px; /* Ajuster la taille pour qu’elle soit similaire à votre exemple */
     height: 450px;
 }
 
@@ -330,7 +358,7 @@ h3 {
     width: 95%;
     height: 60%;
     background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
-    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
+    border-radius: 20px; /* Ajuster pour un effet d'arrondi */
     z-index: 1;
     margin-top: 1000px;
 }
@@ -341,7 +369,7 @@ h3 {
     width: 75%;
     height: 50%;
     background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
-    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
+    border-radius: 20px; /* Ajuster pour un effet d'arrondi */
     z-index: 1;
     margin-top: 850px;
     margin-left: -50px;
@@ -400,6 +428,77 @@ h3 {
     height: 100px;
     
 }
+.image-container2 {
+    position: relative;
+    width: 200px; /* Ajuste la taille pour qu’elle soit pareil à mon exemple */
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: -800px;
+
+}
+image-overlay2 {
+    position: absolute;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-left: -1000px; /* Pour un effet d'ombre */
+}
+.background-image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.subtitle2 {
+    color: orange ;/* Couleur dorée/orangée pour le sous-titre */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 300px;
+    margin-left: 300px;
+    width: 500px;
+    height: 500px;
+}
+
+.title2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    width: 450px;
+    height: 100px;
+    margin-top: -450px;
+}
+
+
+.description2 {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    width: 450px;
+    height: 100px;
+    
+}
+
+.more-info2 {
+    color: #f6a919; /* Couleur dorée pour le lien */
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 300px;
+   width: 500px;
+   height: 500px;
+   margin-top: -200px;
+}
+
 
 .more-info {
     color: #f6a919; /* Couleur dorée pour le lien */
@@ -413,6 +512,7 @@ h3 {
    margin-top: -200px;
 }
 
+
 .arrow {
     margin-left: 8px;
     transition: transform 0.2s ease;
@@ -421,4 +521,203 @@ h3 {
 .more-info:hover .arrow {
     transform: translateX(5px); /* Déplacement de la flèche au survol */
 }
+.image-container3 {
+    position: relative;
+    width: 250px; /* Ajustez la taille pour qu’elle soit similaire à votre exemple */
+    height: 500px;
+    margin-left: 1000px;
+    margin-top: 130px;
 
+}
+image-overlay3 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.background-image3 {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.image-container4{
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    margin-left: 1000px;
+    margin-top: 200px;
+
+
+}
+.image-overlay4{
+    position: absolute;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    top: -750px;
+    margin-left: 240px
+
+
+}
+.background-image4 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: -100px;
+    
+}
+.background-gray5 {
+    position: absolute;
+    top: -900px;
+    left: 100px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(229, 232, 231, 0.922); /* Couleur grisée */
+    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
+    margin-top: 1700px;
+    margin-left: 1240px;
+
+}
+.title3{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 1000px;
+    width: 450px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 850px;
+    color: #fcae1f;
+    letter-spacing: 2px;
+}
+.subtitle3{
+    color: black;
+    font-size: 18px;
+    margin-left:-90px;
+}
+
+.img10{
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+
+}
+.img11{
+    margin-left: 350px;
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+
+}
+.img12{
+    margin-left: 620px;
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    
+}
+.img13{
+    margin-left: 90px;
+    margin-top: 120px;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+
+}
+.img14{
+    margin-left: 365px;
+    margin-top: 120px;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+}
+.img15{
+    margin-left: 635px;
+    margin-top: 120px;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+
+}
+.arrow-button1 i{
+    font-size: 24px;
+    color: black;
+    margin-top: -1010px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    color: #333;
+    margin-top: 2000px;
+}
+
+
+.footer-column {
+    width: 20%;
+}
+
+
+.footer-column h3 {
+    color: #FF7A00;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -1010px;
+    margin-left: 900px;
+}
+
+
+.footer-column p,
+.footer-column ul {
+    font-size: 14px;
+    color: #666;
+    margin-top: 1050px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 200px;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+
+.footer-column ul li a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: rgb(255, 122, 0);
+}
+
+
+.text-orange {
+    color: rgb(255, 122, 0);
+}
+.footer-column:first-child h3 {
+    color: black
+}
+
+
+.marginbottom10 {
+    margin-bottom: 10px;
+}
+
+.marginbottom8 {
+    margin-bottom: 8px;
+}
