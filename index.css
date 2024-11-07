@@ -172,7 +172,7 @@ body{
 
 }
 tr:nth-child(3){
-    color: orange;
+    color: #E58411;
 }
 .Titre{
     display: inline-block;
@@ -361,7 +361,7 @@ h3 {
   
   .rating {
     font-size: 14px;
-    color: #ffaa22;
+    color: #E58411;
     margin-top: 1000px;
     margin-left: -45px;
   }
@@ -394,7 +394,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center; 
-    color: #FFA500; 
+    color: #E58411; 
     font-size: 18px;
     margin-top: 100px;
     margin-left: 580px;
@@ -454,7 +454,7 @@ h3 {
     border-radius: 20px;
 }
 .subtitle {
-    color: orange ;
+    color: #E58411 ;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -481,14 +481,14 @@ h3 {
     font-size: 16px;
     color: #666;
     line-height: 1.6;
-    margin-bottom: 120px;
+    margin-top: 50px;
     margin-left: 1000px;
     width: 450px;
     height: 100px;
     
 }
 .more-info {
-    color: #f6a919; 
+    color: #E58411; 
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
@@ -535,7 +535,7 @@ image-overlay2 {
 }
 
 .subtitle2 {
-    color: orange ;
+    color: #E58411 ;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -569,7 +569,7 @@ image-overlay2 {
 }
 
 .more-info2 {
-    color: #f6a919; 
+    color: #E58411; 
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
@@ -656,7 +656,7 @@ image-overlay3 {
     height: 100px;
     margin-top: 420px;
     margin-left: 850px;
-    color: #fcae1f;
+    color: #E58411;
     letter-spacing: 2px;
 }
 .subtitle3{
@@ -744,7 +744,7 @@ image-overlay3 {
 
 
 .footer-column h3 {
-    color: #FF7A00;
+    color: #E58411;
     font-size: 18px;
     margin-bottom: 10px;
     margin-top: -1010px;
@@ -758,6 +758,11 @@ image-overlay3 {
     color: #666;
     margin-top: 1050px;
 }
+h1{
+    margin-top: -15px;
+}
+
+
 
 .footer-column ul {
     list-style: none;
@@ -776,12 +781,12 @@ image-overlay3 {
 }
 
 .footer-column ul li a:hover {
-    color: rgb(255, 122, 0);
+    color: #E58411;
 }
 
 
 .text-orange {
-    color: rgb(255, 122, 0);
+    color: rgb#E58411(255, 122, 0);
 }
 
 
