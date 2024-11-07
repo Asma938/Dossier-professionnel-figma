@@ -452,6 +452,7 @@ h3 {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
 }
 .subtitle {
     color: #E58411 ;
@@ -532,6 +533,7 @@ image-overlay2 {
     border-radius: 20px;
     margin-top: -50px;
     margin-left: -50px;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
 }
 
 .subtitle2 {
@@ -607,6 +609,7 @@ image-overlay3 {
     border-radius: 20px;
     margin-top: 150px;
     margin-left: -100px;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
 }
 .image-container4{
     position: absolute;
@@ -633,6 +636,8 @@ image-overlay3 {
     height: 600px;
     border-radius: 20px;
     margin-left: -100px;
+    filter: drop-shadow(20px 14px 40px rgb(190, 190, 190));
+
     
 }
 .background-gray5 {
@@ -643,7 +648,7 @@ image-overlay3 {
     height: 120%;
     background-color: rgba(229, 232, 231, 0.922); 
     border-radius: 20px; 
-    margin-top: 1600px;
+    margin-top: 1500px;
     margin-left: 1340px;
 
 }
@@ -671,6 +676,7 @@ image-overlay3 {
     width: 500px;
     height: 600px;
     position: absolute;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
 
 }
 .img11{
@@ -679,6 +685,7 @@ image-overlay3 {
     width: 500px;
     height: 600px;
     position: absolute;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
 
 }
 .img12{
@@ -687,6 +694,7 @@ image-overlay3 {
     width: 500px;
     height: 600px;
     position: absolute;
+    filter: drop-shadow(10px 7px 20px rgb(190, 190, 190));
     
 }
 .img13{
@@ -786,7 +794,7 @@ h1{
 
 
 .text-orange {
-    color: rgb#E58411(255, 122, 0);
+    color: rgb(229, 132, 17)(255, 122, 0);
 }
 
 
