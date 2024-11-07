@@ -6,7 +6,7 @@ body{
     background-size: 100%;
     height: 1084px;
     margin: 0;
-    padding-bottom: 6000px;
+    padding-bottom: 5000px;
     width: 100%;
 
     }
@@ -21,6 +21,7 @@ body{
         color: white;
         margin-left: -1240px;
         margin-top: -50px;
+    
     }
     .simple-navbar {
     padding: 10px;
@@ -33,6 +34,14 @@ body{
     z-index: 1000;
     font-size: 25px;
 }
+.p1{
+    font-size: 30px;
+    color: white;
+    margin-left: -3040px;
+    margin-top: 0px;
+    display: grid;
+
+}
 
 
 .simple-navbar ul {
@@ -44,6 +53,7 @@ body{
 
 .simple-navbar ul li {
     margin-left: 100px;
+    width: 110px;
 }
 
 .simple-navbar ul li a {
@@ -54,29 +64,38 @@ body{
     transition: color 0.3s;
 }
 
-/* Effet lors du survol */
-.simple-navbar ul li a:hover {
-    color: #ff6347; /* Changement de couleur au survol */
+
+.simple-navbar ul li a:hover{
+    color: #ff6347; 
 }
 
-/*le contenu n'est pas caché sous la navbar */
+
 .logo {
     margin-left: 505px;
-    padding-right: 20px; /* le logo reste à droite */
+    padding-right: 20px;
 }
 
 .logo img {
-    height: 30px; /* Taille du logo  */
+    height: 30px; 
     width: auto;
     display: block;
+    margin-left: -135px;
 }
-/*  la barre de recherche stylisée */
+.image-logo2{
+    margin-left: -1700px;
+    margin-top: -40px;
+}
+.image-logo3{
+    margin-left: 1715px;
+    margin-top: -25px;
+}
+
 .search-bar {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 3%; /* Centrer complètement */
+    margin-top: 3%; 
 }
 
 .search-bar input {
@@ -107,30 +126,48 @@ body{
     width: 30px;
     height: 30px;
     margin-top: 480px;
-    margin-left: -848px;
+    margin-left: -860px;
+}
+.decoration-image{
+    position: relative
+}
+.circle1{
+    margin-top: 450px;
+    margin-left: 130px;
+}
+.circle2{
+    margin-left: 1650px;
+    margin-bottom: -90px;
+}
+.circle3{
+    margin-left: 310px;
+    margin-top: -500px;
+}
+.circle4{
+    margin-left: 630px;
 }
 .no-border {
     border-collapse: collapse; 
     width: 40%;
-    max-width: 600px;
     margin-left: 45%;
     top: 450px;
     position: relative;
     top: 700px;
     display: flex;
-    float: left; 
+    float: left;
+     
 }
 
 .no-border th, .no-border td {
     border: none; 
     padding: 5px; 
     text-align: left;
-    font-size: 19px;
+    font-size: 20px;
     
 }
 .Table{
     position: relative;
-    margin-top: 300px;
+    margin-top: -300px;
     margin-left: -150px;
 
 }
@@ -166,7 +203,7 @@ h3 {
 }
 .bouton-groupe{
     display: flex;
-    background-color: rgb(197, 194, 194);
+    background-color: rgb(240, 236, 236);
     border-radius: 20px;
     padding: 5px;
     gap: 10px;
@@ -191,41 +228,41 @@ h3 {
     box-shadow:0 0 10px rgba(0,0,0,0.1)
 }
 .img1{
-    width: 100px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     display: block;
     position: absolute;
     margin-top: 1100px;
-    margin-left: 600px;
+    margin-left: 250px;
     
 }
 .img2{
-    width: 100px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     display: block;
     position:absolute;
     margin-top: 1100px;
-    margin-left: 800px;
+    margin-left: 600px;
 }
 .img3{
-    width: 100px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     display: block;
     position: absolute;
     margin-top: 1100px;
-    margin-left: 1000px;
+    margin-left: 1030px;
 }
 .img4{
-    width: 100px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     display: block;
     position: absolute;
     margin-top: 1110px;
-    margin-left: 1200px;
+    margin-left: 1380px;
 }
 
 .product-container {
@@ -234,11 +271,10 @@ h3 {
     gap: 15px; 
     overflow-x: auto; 
     overflow-y: hidden; 
-    scrollbar-width: none; 
     margin-top: 850px;
     margin-left: 0px;
     background-color: #f2f2f2; 
-    padding: 200px;
+    padding: 400px;
     height: 300px;
   }
   
@@ -250,18 +286,19 @@ h3 {
   .product-card {
     background-color: white;
     border-radius: 12px; 
-    padding: 70px; 
-    width: 50px; 
+    padding: 100px; 
+    width: 150px; 
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
     font-family: Arial, sans-serif;
     position: relative;
     text-align: left;
-    height: 40px;
-    margin-top: 200px;
-    left: 350px;
+    height: 100px;
+    margin-top: 250px;
+    left: -150px;
+
   }
   
-.back-arrow {
+.right-arrow {
     background-color: #FFFFFF;
     color: #333333;
     border: none;
@@ -271,8 +308,28 @@ h3 {
     font-size: 18px;
     cursor: pointer;
     position: absolute;
-    top: -15px;
-    left: 16px;
+    top: -50px;
+    left: 310px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0 20px;
+
+}
+.left-arrow {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: -50px;
+    left: -1135px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -284,7 +341,7 @@ h3 {
   
   
   .category {
-    font-size: 12px; /* Réduit la taille de la catégorie */
+    font-size: 12px; 
     color: #888;
     margin: 0;
     margin-top: -45px;
@@ -295,23 +352,23 @@ h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 8px 0 4px 0;
-    color: #333333; /* Couleur noire */
+    color: #333333; 
     margin-top: -1000px;
     margin-left: 654px;
   }
   
   .rating {
-    font-size: 14px; /* Réduit la taille des étoiles */
+    font-size: 14px;
     color: #ffaa22;
     margin-top: 1000px;
     margin-left: -45px;
   }
   
   .price {
-    font-size: 18px; /* Réduit la taille du prix */
+    font-size: 18px;
     font-weight: bold;
     color: #333;
-    margin-top: 50px;
+    margin-top: 120px;
     margin-left: -50px;
   }
   
@@ -320,56 +377,56 @@ h3 {
     color: white;
     border: none;
     border-radius: 50%;
-    width: 30px; /* Réduit la taille du bouton */
+    width: 30px; 
     height: 30px;
-    font-size: 16px; /* Réduit la taille du "+" */
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     right: 10px;
   }
   .view-all {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centre le texte et la flèche dans le conteneur parent */
-    color: #FFA500; /* Couleur orange */
+    justify-content: center; 
+    color: #FFA500; 
     font-size: 18px;
-    margin-top: 70px;
-    margin-left: 300px;
+    margin-top: 100px;
+    margin-left: 580px;
     width: 100px;
     }
 
     .view-all:hover .arrow {
-        transform: translateX(5px); /* Déplacement de la flèche au survol */
+        transform: translateX(5px); 
     }
 .image-container {
     position: relative;
-    width: 600px; /* Ajuster la taille pour qu’elle soit similaire à votre exemple */
+    width: 600px;
     height: 450px;
 }
 
 .background-gray {
     position: absolute;
     top: -900px;
-    left: 300px;
+    left: 330px;
     width: 95%;
-    height: 60%;
-    background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
-    border-radius: 20px; /* Ajuster pour un effet d'arrondi */
+    height: 85%;
+    background-color: rgba(232, 238, 236, 0.683); 
+    border-radius: 20px; 
     z-index: 1;
     margin-top: 1000px;
 }
 .background-gray2 {
     position: absolute;
     top: -900px;
-    left: 300px;
-    width: 75%;
+    left: -10px;
+    width: 100%;
     height: 50%;
-    background-color: rgba(232, 238, 236, 0.683); /* Couleur grisée */
-    border-radius: 20px; /* Ajuster pour un effet d'arrondi */
+    background-color: rgba(232, 238, 236, 0.683); 
+    border-radius: 20px; 
     z-index: 1;
     margin-top: 850px;
     margin-left: -50px;
@@ -378,13 +435,13 @@ h3 {
 .image-overlay {
     position: absolute;
     top: 100px;
-    left: 250px;
-    width: 95%;
-    height: 90%;
+    left: -10px;
+    width: 140%;
+    height: 120%;
     border-radius: 20px;
     overflow: hidden;
     z-index: 2;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Pour un effet d'ombre doux */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
     margin-top: -100px;
 }
 
@@ -395,11 +452,11 @@ h3 {
     border-radius: 20px;
 }
 .subtitle {
-    color: orange ;/* Couleur dorée/orangée pour le sous-titre */
-    font-size: 14px;
+    color: orange ;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 140px;
     text-transform: uppercase;
     margin-top: 300px;
     margin-left: 1000px;
@@ -408,13 +465,13 @@ h3 {
 }
 
 .title {
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 15px;
     margin-left: 1000px;
     width: 450px;
     height: 100px;
-    margin-top: -450px;
+    margin-top: -550px;
 }
 
 
@@ -422,7 +479,7 @@ h3 {
     font-size: 16px;
     color: #666;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
     margin-left: 1000px;
     width: 450px;
     height: 100px;
@@ -430,7 +487,7 @@ h3 {
 }
 .image-container2 {
     position: relative;
-    width: 200px; /* Ajuste la taille pour qu’elle soit pareil à mon exemple */
+    width: 200px; 
     height: 100px;
     margin-left: 1000px;
     margin-top: -800px;
@@ -443,7 +500,7 @@ image-overlay2 {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    margin-left: -1000px; /* Pour un effet d'ombre */
+    margin-left: -1000px; 
 }
 .background-image2 {
     width: 100%;
@@ -453,22 +510,21 @@ image-overlay2 {
 }
 
 .subtitle2 {
-    color: orange ;/* Couleur dorée/orangée pour le sous-titre */
-    font-size: 14px;
+    color: orange ;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 110px;
     text-transform: uppercase;
-    margin-top: 300px;
     margin-left: 300px;
     width: 500px;
     height: 500px;
 }
 
 .title2 {
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 125px;
     margin-left: 300px;
     width: 450px;
     height: 100px;
@@ -480,7 +536,7 @@ image-overlay2 {
     font-size: 16px;
     color: #666;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 300px;
     width: 450px;
     height: 100px;
@@ -488,7 +544,7 @@ image-overlay2 {
 }
 
 .more-info2 {
-    color: #f6a919; /* Couleur dorée pour le lien */
+    color: #f6a919; 
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
@@ -501,7 +557,7 @@ image-overlay2 {
 
 
 .more-info {
-    color: #f6a919; /* Couleur dorée pour le lien */
+    color: #f6a919; 
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
@@ -519,29 +575,31 @@ image-overlay2 {
 }
 
 .more-info:hover .arrow {
-    transform: translateX(5px); /* Déplacement de la flèche au survol */
+    transform: translateX(5px); 
 }
 .image-container3 {
     position: relative;
-    width: 250px; /* Ajustez la taille pour qu’elle soit similaire à votre exemple */
+    width: 250px; 
     height: 500px;
     margin-left: 1000px;
-    margin-top: 130px;
+    margin-top: 30px;
 
 }
 image-overlay3 {
     position: absolute;
-    width: 50%;
+    width: 10%;
     height: 120%;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 .background-image3 {
-    width: 200px;
+    width: 300px;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
+    margin-top: 150px;
+    margin-left: -100px;
 }
 .image-container4{
     position: absolute;
@@ -564,23 +622,22 @@ image-overlay3 {
 
 }
 .background-image4 {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+    width: 700px;
+    height: 600px;
     border-radius: 20px;
     margin-left: -100px;
     
 }
 .background-gray5 {
     position: absolute;
-    top: -900px;
+    top: -800px;
     left: 100px;
-    width: 50%;
-    height: 100%;
-    background-color: rgba(229, 232, 231, 0.922); /* Couleur grisée */
-    border-radius: 20px; /* Ajustez pour un effet d'arrondi */
-    margin-top: 1700px;
-    margin-left: 1240px;
+    width: 80%;
+    height: 120%;
+    background-color: rgba(229, 232, 231, 0.922); 
+    border-radius: 20px; 
+    margin-top: 1600px;
+    margin-left: 1340px;
 
 }
 .title3{
@@ -590,7 +647,7 @@ image-overlay3 {
     margin-left: 1000px;
     width: 450px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 420px;
     margin-left: 850px;
     color: #fcae1f;
     letter-spacing: 2px;
@@ -603,7 +660,7 @@ image-overlay3 {
 
 .img10{
     margin-left: 80px;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 500px;
     height: 600px;
     position: absolute;
@@ -611,7 +668,7 @@ image-overlay3 {
 }
 .img11{
     margin-left: 350px;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 500px;
     height: 600px;
     position: absolute;
@@ -619,7 +676,7 @@ image-overlay3 {
 }
 .img12{
     margin-left: 620px;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 500px;
     height: 600px;
     position: absolute;
@@ -627,7 +684,7 @@ image-overlay3 {
 }
 .img13{
     margin-left: 90px;
-    margin-top: 120px;
+    margin-top: 160px;
     width: 450px;
     height: 350px;
     position: absolute;
@@ -635,23 +692,33 @@ image-overlay3 {
 }
 .img14{
     margin-left: 365px;
-    margin-top: 120px;
+    margin-top: 160px;
     width: 450px;
     height: 350px;
     position: absolute;
 }
 .img15{
     margin-left: 635px;
-    margin-top: 120px;
+    margin-top: 160px;
     width: 450px;
     height: 350px;
     position: absolute;
 
 }
+
+.arrow-button2 i{
+    font-size: 24px;
+    color: black;
+    top: 350px;
+    margin-left: 1730px;
+    position: relative;
+}
 .arrow-button1 i{
     font-size: 24px;
     color: black;
-    margin-top: -1010px;
+    top: 280px;
+    margin-left: 145px;
+    position: relative;
 }
 
 .footer {
@@ -660,7 +727,7 @@ image-overlay3 {
     padding: 40px 0;
     background-color: #f1f1f1;
     color: #333;
-    margin-top: 2000px;
+    margin-top: 2500px;
 }
 
 
@@ -710,7 +777,9 @@ image-overlay3 {
     color: rgb(255, 122, 0);
 }
 .footer-column:first-child h3 {
-    color: black
+color: black;
+    
+
 }
 
 
